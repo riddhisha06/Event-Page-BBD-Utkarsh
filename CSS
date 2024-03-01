@@ -1,0 +1,102 @@
+*{
+    transition: all .2s linear;
+}
+
+body {
+    background-color: thistle;
+    background-image: url("abc.png");
+  background-repeat: no-repeat;
+  background-size: 900px 600px;
+  background-attachment: scroll;
+}
+.div{
+    padding-top: 0.5%;
+    color: blueviolet;
+    text-shadow: 2px 2px 5px #000000;
+    font-size: x-large;
+}
+.header{
+    float: right;
+    justify-content: space-around;
+    font-size: xx-large;
+    word-spacing: 10px;
+    font-weight: 800;
+    padding-right: 1%;
+}
+.header a:hover{
+    background: transparent;
+    text-shadow: 2px 2px 3px #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.so{
+    text-align: right;
+    font-family: "Dancing Script", sans-serif;
+    color: rebeccapurple;
+    font-size: larger;
+    padding-right: 5%;
+    padding-top: 6%;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.div{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  main {
+    margin: 20px;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
