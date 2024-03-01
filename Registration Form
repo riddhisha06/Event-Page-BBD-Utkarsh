@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTKARSH REGISTRATION</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="rs">
+        <form>
+            <br>
+            <br>
+            <h1>REGISTER HERE!</h1>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="cname">Course</label><br>
+            <select id="cname" name="Course">
+                <option value="s">Select</option>
+                <option value="mba">MBA</option>
+                <option value="mtech">M.TECH</option>
+                <option value="btech">B.TECH</option>
+                <option value="bba">BBA</option>
+            </select><br><br>
+            <label for="yname">Year</label><br>
+            <select id="yname" name="Year">
+                <option value="s">Select</option>
+                <option value="i">I</option>
+                <option value="ii">II</option>
+                <option value="iii">III</option>
+                <option value="iv">IV</option>
+            </select><br><br>
+            <label for="ename">E-Mail Address</label><br>
+            <input type="text" id="ename" name="ename"><br><br>
+            <label for="bname">Contact</label><br>
+            <input type="text" id="bname" name="bname"><br><br>
+            <label for="event">Select an event you want to participate in:</label><br><br>
+            <select id="event" name="event" required>
+                <option value="none">None</option>
+                <option value="music">Music Concert</option>
+                <option value="dance">Dance Competition</option>
+                <option value="food">Food Festival</option>
+                <option value="gd">Group Discussion</option>
+                <option value="es">Essay Competition</option>
+                <option value="ss">Fashion Show</option>
+                <option value="gf">Glam Fiesta</option>
+                <option value="sc">Singing Competition</option>
+                <option value="nn">Nukkad Natak</option>
+                <option value="dd">DJ Night</option><br><br>
+            <button type="button">SUBMIT</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
